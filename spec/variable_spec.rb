@@ -1,8 +1,8 @@
-# Code your solution in variable.rb
+"Greetings World"
 describe "./variable.rb" do
 
-  it "defined a local variable called greeting and set it equal to 'Hello World'" do
-    greeting = get_variable_from_file('./variable.rb', "greeting")
+  it "defined Greetings World" do
+    'greeting= Greetings World
 
     expect(greeting).to eq("Hello World")
   end
